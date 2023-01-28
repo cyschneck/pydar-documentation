@@ -10,4 +10,4 @@ Static Data Files
 .. autosummary::
    :toctree: generated
 
-   lumache
+   pydar
