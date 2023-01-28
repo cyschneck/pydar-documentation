@@ -1,19 +1,35 @@
-Welcome to Lumache's documentation!
+PYDAR
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+A Python package to access, download, view, and manipulate Cassini RADAR images in one place
 
-Lumache has its documentation hosted on Read the Docs.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+* **Find relevant flyby observation numbers and IDs for a feature, range of regions, or specific latitude/longitude**
+	* retrieveIDSByFeatureName()
+	* retrieveIDSByLatitudeLongitude()
+	* retrieveIDSByLatitudeLongitudeRange()
+	* retrieveIDSByTime()
+	* retrieveIDSByTimeRange()
+* **Use flyby observation numbers/IDs to retrieve flyby observation data (.FMT, .TAB, .LBL, .IMG) from SBDR and BIDR by default**
+	* extractFlybyDataImages()
+	* convertFlybyIDToObservationNumber()
+	* convertObservationNumberToFlybyID()
+* **Access specific observation data AAREADME and .LBL readme information**
+	* returnAllAAREADMEOptions()
+	* readAAREADME()
+	* returnAllLBLOptions()
+	* readLBLREADME()
+* **Display PDS image retrieved for flyby observation**
+	* displayImages()
+* **Extract Metadata from .FMT and .TAB files**
+	* extractMetadata()
 
 .. note::
 
-   This project is under active development.
+   This project is under active development
+   
+   This is Beta quality software that is being actively developed, use at your own risk. This project is not supported or endorsed by either JPL or NASA. The code is provided “as is”, use at your own risk.
+
+
 
 Contents
 --------
@@ -21,4 +37,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   data
