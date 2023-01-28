@@ -1,4 +1,4 @@
-Usage
+Functions
 ===================================
 
 .. _installation:
