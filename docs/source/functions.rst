@@ -14,6 +14,34 @@ Install pydar to run locally
 
 Requirements
 ----------------
+retrieveIDSByFeatureName()
+----------------
+retrieveIDSByLatitudeLongitude()
+----------------
+retrieveIDSByLatitudeLongitudeRange()
+----------------
+retrieveIDSByTime()
+----------------
+retrieveIDSByTimeRange()
+----------------
+extractFlybyDataImages()
+----------------
+convertFlybyIDToObservationNumber()
+----------------
+convertObservationNumberToFlybyID()
+----------------
+returnAllAAREADMEOptions()
+----------------
+readAAREADME()
+----------------
+returnAllLBLOptions()
+----------------
+readLBLREADME()
+----------------
+displayImage()
+----------------
+extractMetadata()
+----------------
 
 For example:
 
