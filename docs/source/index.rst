@@ -36,5 +36,5 @@ Contents
 
 .. toctree::
 
-   functions
    data
+   functions
